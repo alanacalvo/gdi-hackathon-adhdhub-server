@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const Sessions = require('./controllers/sessionController');
 
+
+require('dotenv').config();
+
 app.use(express.json());
 app.use('/sessions', Sessions);
 
