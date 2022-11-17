@@ -1,0 +1,34 @@
+[
+  {
+    "sessionName": "Project Planning",
+    "sessionLength": "3",
+    "preSessionTodos": {
+      "todoItem": ["Wireframes"],
+      "timeLength": "20"
+    }
+  },
+  {
+    "sessionName": "Clean house",
+    "sessionLength": "3",
+    "preSessionTodos": {
+      "todoItem": ["Vacuum", "Mop"],
+      "timeLength": "20"
+    }
+  },
+  {
+    "sessionName": "Self Care",
+    "sessionLength": "3",
+    "preSessionTodos": {
+      "todoItem": ["Skin routine", "Bubble Bath"],
+      "timeLength": "20"
+    }
+  },
+  {
+    "sessionName": "Pack for Vacation",
+    "sessionLength": "3",
+    "preSessionTodos": {
+      "todoItem": ["Go shopping", "Pack kids clothes"],
+      "timeLength": "20"
+    }
+  }
+]
