@@ -38,8 +38,8 @@ module.exports = {
           await Session.findOneAndUpdate({_id:req.body.id}, {
               status: true
           })
-          console.log('Completed Task')
-          res.json('Completed Task')
+          console.log('Completed Todo')
+          res.json('Completed Todo')
       } catch (err) {
           console.log(err)
       }
@@ -49,8 +49,8 @@ module.exports = {
           await Session.findOneAndUpdate({_id:req.body.id}, {
               completed: false
           })
-          console.log('Incompleted Task')
-          res.json('Incompleted Task')
+          console.log('Incompleted Todo')
+          res.json('Incompleted Todo')
       } catch (err) {
           console.log(err)
       }
@@ -59,7 +59,7 @@ module.exports = {
       console.log(req.body.id)
       try {
           await Session.deleteOne({_id: req.body.id})
-          console.log('Deleted Project')
+          console.log('Deleted Todo')
           res.redirect('/dashboard')
       } catch (error) {
           console.log(err)
